@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ec5bae-f920-41ad-b4f6-7e6a2366e8bf" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/Home/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/Login/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/PageObjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/global.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Home/Home.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Home/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/Home/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/HomePage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/Login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/PageObjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PageObjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/global.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page/Home/Home.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page/Login/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page/PageObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/global.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/Login.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +53,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepDefinitions/Home" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CRS\ProthomAlo\src\test\resources" />
       <recent name="C:\Users\Rahul Saha\Desktop\workspace\ProthomAlo\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CRS\ProthomAlo\src\test\java\features\Login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="page.Login" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Login">
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Check login Functionality with valid username &amp; password">
+    <configuration name="Scenario: Check login Functionality with Empty Data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login/Login.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ProthomAlo" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="NAME_FILTER" value="^Check login Functionality with Empty Data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login Functionality with Empty Data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check login Functionality with Empty Data" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -81,15 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check empty username &amp; valid password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check login Functionality with empty username &amp; valid password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login/Login.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ProthomAlo" />
-      <option name="NAME_FILTER" value="^Check empty username \&amp; valid password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check empty username \&amp; valid password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check empty username &amp; valid password" />
+      <option name="NAME_FILTER" value="^Check login Functionality with empty username \&amp; valid password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login Functionality with empty username \&amp; valid password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check login Functionality with empty username &amp; valid password" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -101,15 +109,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check login Empty Data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check login Functionality with valid username &amp; empty password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login/Login.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ProthomAlo" />
-      <option name="NAME_FILTER" value="^Check login Empty Data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login Empty Data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check login Empty Data" />
+      <option name="NAME_FILTER" value="^Check login Functionality with valid username \&amp; empty password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login Functionality with valid username \&amp; empty password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check login Functionality with valid username &amp; empty password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check login Functionality with valid username &amp; password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ProthomAlo" />
+      <option name="NAME_FILTER" value="^Check login Functionality with valid username \&amp; password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login Functionality with valid username \&amp; password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check login Functionality with valid username &amp; password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify that the Login page is displayed correctly." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ProthomAlo" />
+      <option name="NAME_FILTER" value="^Verify that the Login page is displayed correctly\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the Login page is displayed correctly\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that the Login page is displayed correctly." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -123,9 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: Login" />
-        <item itemvalue="Cucumber Java.Scenario: Check empty username &amp; valid password" />
-        <item itemvalue="Cucumber Java.Scenario: Check login Empty Data" />
+        <item itemvalue="Cucumber Java.Scenario: Check login Functionality with valid username &amp; password" />
+        <item itemvalue="Cucumber Java.Scenario: Check login Functionality with valid username &amp; empty password" />
+        <item itemvalue="Cucumber Java.Scenario: Check login Functionality with empty username &amp; valid password" />
+        <item itemvalue="Cucumber Java.Scenario: Check login Functionality with Empty Data" />
+        <item itemvalue="Cucumber Java.Scenario: Verify that the Login page is displayed correctly." />
       </list>
     </recent_temporary>
   </component>
